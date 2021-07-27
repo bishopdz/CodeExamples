@@ -1,0 +1,488 @@
+"salefactid","saleid","saledate","customer.customerid","customer.firstname","customer.lastname","customer.phone","customer.address","customer.city","customer.state","customer.zipcode","animal.animalid","animal.name","animal.category","animal.breed","animal.dateborn","animal.gender","animal.registered","animal.color","animal.listprice","merchandise.merchandiseid","merchandise.description","merchandise.quantityonhand","merchandise.listprice","merchandise.category","quantity","saleprice","salestax"
+1,4,"2004-08-14",18,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",8,"Miranda","Dog","Norfolk Terrier","2004-05-04","Female","AKC","Red",203.75,,"",,,"",1,183.38,14.62
+2,4,"2004-08-14",18,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",1,16,14.62
+3,4,"2004-08-14",18,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,14.62
+4,5,"2004-10-31",21,"Sarah","Mills","(615) 646-9874","8904 Horseshoe Road","Smyrna","TN","37167",183,"","Spider","Scorpion","2004-02-02","Male","","Black",127,,"",,,"",1,114.3,6.86
+5,6,"2004-09-15",44,"Dale","Hammer","(412) 933-3710","9707 Elm Hill Circle","Scott Twp.","PA","15106",58,"Curtis","Bird","Parakeet","2004-04-28","Male","","Gold/Red",146.87,,"",,,"",1,132.19,9.82
+6,6,"2004-09-15",44,"Dale","Hammer","(412) 933-3710","9707 Elm Hill Circle","Scott Twp.","PA","15106",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",1,9,9.82
+7,6,"2004-09-15",44,"Dale","Hammer","(412) 933-3710","9707 Elm Hill Circle","Scott Twp.","PA","15106",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,9.82
+8,7,"2004-02-10",42,"Jackie","Froedge","(615) 041-1934","243 West Ridge Drive","Brentwood","TN","37027",24,"Carla","Cat","Maine Coon","2004-04-11","Female","CFA","Brown\Red",163.97,,"",,,"",1,147.58,12.31
+9,7,"2004-02-10",42,"Jackie","Froedge","(615) 041-1934","243 West Ridge Drive","Brentwood","TN","37027",,"","","","","","","",,5,"Cat Bed-Small",36,25,"Cat",1,22.5,12.31
+10,7,"2004-02-10",42,"Jackie","Froedge","(615) 041-1934","243 West Ridge Drive","Brentwood","TN","37027",,"","","","","","","",,19,"Cat Litter-10 pound",128,8,"Cat",3,7.2,12.31
+11,7,"2004-02-10",42,"Jackie","Froedge","(615) 041-1934","243 West Ridge Drive","Brentwood","TN","37027",,"","","","","","","",,40,"Litter Box-Covered",20,15,"Cat",1,13.5,12.31
+12,8,"2004-03-10",15,"Connie","Fisher","(409) 116-3589","4491 Evergreen Circle","Galveston","TX","77550",42,"Lloyd","Dog","Bassett Hound","2004-05-19","Male","AKC","Brown/Black",193.63,,"",,,"",1,174.27,17.58
+13,8,"2004-03-10",15,"Connie","Fisher","(409) 116-3589","4491 Evergreen Circle","Galveston","TX","77550",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",1,27,17.58
+14,8,"2004-03-10",15,"Connie","Fisher","(409) 116-3589","4491 Evergreen Circle","Galveston","TX","77550",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",100,0.72,17.58
+15,8,"2004-03-10",15,"Connie","Fisher","(409) 116-3589","4491 Evergreen Circle","Galveston","TX","77550",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,17.58
+16,9,"2004-02-10",16,"Rosie","Wade","(502) 863-3037","7661 Trident Place","Hopkinsville","KY","42240",53,"","Fish","Starfish","2004-06-23","Female","","Blue",52,,"",,,"",1,46.8,2.81
+17,10,"2004-11-01",53,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",9,"","Fish","Guppy","2004-03-10","Male","","Gold",2,,"",,,"",1,1.8,7.83
+18,10,"2004-11-01",53,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,7.83
+19,10,"2004-11-01",53,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,25,"Fish Food",113,3,"Fish",5,2.7,7.83
+20,10,"2004-11-01",53,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,26,"Aquarium Decoration",48,6,"Fish",3,5.4,7.83
+21,10,"2004-11-01",53,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,7.83
+22,11,"2004-12-24",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",2,27,3.67
+23,11,"2004-12-24",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",20,0.36,3.67
+24,12,"2004-08-15",53,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",5,"","Fish","Shark","2004-01-01","Female","","Gray",22,,"",,,"",1,19.8,1.19
+25,13,"2004-01-30",49,"Wallace","Galloway","(210) 851-7566","4358 Cherokee Road","Leon Valley","TX","78284",162,"Basil","Cat","Japanese Bobtail","2004-05-08","Male","CFA","Red",133.19,,"",,,"",1,119.88,14.81
+26,13,"2004-01-30",49,"Wallace","Galloway","(210) 851-7566","4358 Cherokee Road","Leon Valley","TX","78284",199,"Herbert","Cat","Abyssinian","2004-01-23","Male","CFA","White",163.73,,"",,,"",1,100,14.81
+27,13,"2004-01-30",49,"Wallace","Galloway","(210) 851-7566","4358 Cherokee Road","Leon Valley","TX","78284",,"","","","","","","",,8,"Cat Toy",182,3,"Cat",2,2.7,14.81
+28,13,"2004-01-30",49,"Wallace","Galloway","(210) 851-7566","4358 Cherokee Road","Leon Valley","TX","78284",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,14.81
+29,13,"2004-01-30",49,"Wallace","Galloway","(210) 851-7566","4358 Cherokee Road","Leon Valley","TX","78284",,"","","","","","","",,39,"Litter Box",131,8,"Cat",2,7.2,14.81
+30,14,"2004-09-18",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",50,0.9,3.56
+31,14,"2004-09-18",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,19,"Cat Litter-10 pound",128,8,"Cat",2,7.2,3.56
+32,15,"2004-07-20",39,"Dorothy","Williams","(304) 352-8602","9286 Jackson Avenue","Teays Valley","WV","25550",13,"","Fish","Tetra","2004-03-01","Male","","Red",12,,"",,,"",1,10.8,1.13
+33,15,"2004-07-20",39,"Dorothy","Williams","(304) 352-8602","9286 Jackson Avenue","Teays Valley","WV","25550",,"","","","","","","",,25,"Fish Food",113,3,"Fish",1,2.7,1.13
+34,15,"2004-07-20",39,"Dorothy","Williams","(304) 352-8602","9286 Jackson Avenue","Teays Valley","WV","25550",,"","","","","","","",,26,"Aquarium Decoration",48,6,"Fish",1,5.4,1.13
+35,16,"2004-09-18",62,"Phyllis","Tuck","(913) 496-1897","2150 Volunteer Drive","Manhattan","KS","66502",193,"Kevin","Cat","Sphynx","2004-09-20","Male","CFA","Yellow",240.05,,"",,,"",1,216.05,12.96
+36,17,"2004-02-12",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",11,"Susan","Dog","Dalmation","2004-01-22","Female","AKC","Spotted",164.96,,"",,,"",1,148.47,16.31
+37,17,"2004-02-12",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",1,76.5,16.31
+38,17,"2004-02-12",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,30,"Flea Collar-Dog-Medium",429,7,"Dog",1,6.3,16.31
+39,17,"2004-02-12",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,16.31
+40,17,"2004-02-12",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,16.31
+41,17,"2004-02-12",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,37,"Brush-Stiff",34,8,"Dog",1,7.2,16.31
+42,18,"2004-12-21",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",10,"Sherri","Dog","Siberian Huskie","2004-09-13","Female","AKC","Black/White",166.79,,"",,,"",1,150.11,14.95
+43,18,"2004-12-21",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,99,14.95
+44,19,"2004-02-14",14,"Beth","Patterson","(614) 721-2870","3688 Long Hollow Pike","Columbus","OH","43216",47,"Brian","Dog","Cock A Poo","2004-03-03","Male","AKC","Black",206.07,,"",,,"",1,185.47,15.72
+45,19,"2004-02-14",14,"Beth","Patterson","(614) 721-2870","3688 Long Hollow Pike","Columbus","OH","43216",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",1,76.5,15.72
+46,20,"2004-03-09",2,"Brent","Cummings","(808) 801-9830","9197 Hatchet Drive","Honolulu","HI","96815",13,"","Fish","Tetra","2004-03-01","Male","","Red",12,,"",,,"",1,10.8,12.96
+47,20,"2004-03-09",2,"Brent","Cummings","(808) 801-9830","9197 Hatchet Drive","Honolulu","HI","96815",18,"Allison","Cat","Manx","2004-04-21","Female","CFA","Black",215.92,,"",,,"",1,194.33,12.96
+48,20,"2004-03-09",2,"Brent","Cummings","(808) 801-9830","9197 Hatchet Drive","Honolulu","HI","96815",,"","","","","","","",,25,"Fish Food",113,3,"Fish",4,2.7,12.96
+49,21,"2004-04-23",61,"Marvin","McDonald","(304) 416-1309","8045 Lovers Lane","Cross Lanes","WV","25301",163,"Bruce","Dog","Jack Russell Terrier","2004-09-20","Male","AKC","Brown/White",261.02,,"",,,"",1,234.93,20.14
+50,21,"2004-04-23",61,"Marvin","McDonald","(304) 416-1309","8045 Lovers Lane","Cross Lanes","WV","25301",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",3,27,20.14
+51,21,"2004-04-23",61,"Marvin","McDonald","(304) 416-1309","8045 Lovers Lane","Cross Lanes","WV","25301",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,20.14
+52,22,"2004-11-27",16,"Rosie","Wade","(502) 863-3037","7661 Trident Place","Hopkinsville","KY","42240",67,"Ara","Cat","Manx","2004-01-29","Male","CFA","White",179.05,,"",,,"",1,161.15,9.67
+53,23,"2004-07-08",27,"Archie","Mitchell","(608) 825-3740","1326 Cedar Avenue","Sun Prairie","WI","53590",189,"Emma","Bird","Parrot","2004-09-06","Female","","Yellow",170.08,,"",,,"",1,153.07,10.53
+54,23,"2004-07-08",27,"Archie","Mitchell","(608) 825-3740","1326 Cedar Avenue","Sun Prairie","WI","53590",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,10.53
+55,24,"2004-08-24",99,"Luther","Bell","(717) 244-3484","5703 Cave Springs Road","Gettysburg","PA","17325",,"","","","","","","",,25,"Fish Food",113,3,"Fish",3,2.7,3.02
+56,24,"2004-08-24",99,"Luther","Bell","(717) 244-3484","5703 Cave Springs Road","Gettysburg","PA","17325",,"","","","","","","",,26,"Aquarium Decoration",48,6,"Fish",2,5.4,3.02
+57,24,"2004-08-24",99,"Luther","Bell","(717) 244-3484","5703 Cave Springs Road","Gettysburg","PA","17325",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,3.02
+58,25,"2004-02-17",85,"Glen","Cartwright","(502) 595-1052","448 Sanders Ferry Road","Paducah","KY","42004",7,"Eugene","Cat","Bombay","2004-01-25","Male","CFA","Black",279.54,,"",,,"",1,251.59,15.1
+59,26,"2004-01-11",49,"Wallace","Galloway","(210) 851-7566","4358 Cherokee Road","Leon Valley","TX","78284",64,"","Reptile","Python","2004-04-11","Female","","Black",255.25,,"",,,"",1,229.73,14.49
+60,26,"2004-01-11",49,"Wallace","Galloway","(210) 851-7566","4358 Cherokee Road","Leon Valley","TX","78284",72,"","Mammal","Hamster","2004-06-27","Male","","Brown/White",13,,"",,,"",1,11.7,14.49
+61,27,"2004-10-25",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",6,"Rosie","Cat","Oriental Shorthair","2004-08-02","Female","CFA","Gray",193.31,,"",,,"",1,173.99,32.8
+62,27,"2004-10-25",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",47,"Brian","Dog","Cock A Poo","2004-03-03","Male","AKC","Black",206.07,,"",,,"",1,185.47,32.8
+63,27,"2004-10-25",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",1,76.5,32.8
+64,27,"2004-10-25",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,5,"Cat Bed-Small",36,25,"Cat",1,22.5,32.8
+65,27,"2004-10-25",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",2,27,32.8
+66,27,"2004-10-25",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",50,0.36,32.8
+67,27,"2004-10-25",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",10,0.9,32.8
+68,27,"2004-10-25",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,32.8
+69,28,"2004-02-12",24,"Floyd","Young","(615) 969-8901","969 Windsor Park Lane","Murfreesboro","TN","37130",36,"Connie","Dog","Poodle-Toy","2004-10-14","Female","AKC","White",190.46,,"",,,"",1,171.41,10.28
+70,29,"2004-06-16",82,"Basil","Davidson","(307) 448-5424","9102 Rocky Mound Road","Laramie","WY","82071",15,"Bonita","Dog","Cocker Spaniel","2004-10-21","Female","AKC","Gold",284.85,,"",,,"",1,256.37,15.38
+71,30,"2004-10-15",26,"Trina","Howe","(606) 691-9745","2821 35th Street","Corbin","KY","40701",198,"Curtis","Dog","Maltese","2004-01-04","Male","AKC","Black",142.67,,"",,,"",1,128.41,8.14
+72,30,"2004-10-15",26,"Trina","Howe","(606) 691-9745","2821 35th Street","Corbin","KY","40701",,"","","","","","","",,37,"Brush-Stiff",34,8,"Dog",1,7.2,8.14
+73,31,"2004-04-22",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",59,"Gaylen","Dog","Dalmation","2004-05-10","Male","AKC","Spotted",199.52,,"",,,"",1,179.57,13.69
+74,31,"2004-04-22",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,31,"Flea Collar-Dog-Large",1018,8.5,"Dog",2,7.65,13.69
+75,31,"2004-04-22",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,13.69
+76,31,"2004-04-22",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,13.69
+77,32,"2004-03-09",72,"Gayle","Bailey","(360) 649-9754","8233 Whisper Woods Road","Silver Lake-Fircrest","WA","98201",16,"Lisa","Dog","Great Pyrenees","2004-01-05","Female","AKC","Brown",274.35,,"",,,"",1,246.92,15.95
+78,32,"2004-03-09",72,"Gayle","Bailey","(360) 649-9754","8233 Whisper Woods Road","Silver Lake-Fircrest","WA","98201",,"","","","","","","",,30,"Flea Collar-Dog-Medium",429,7,"Dog",3,6.3,15.95
+79,33,"2004-03-15",78,"Elaine","Hall","(505) 646-2748","1790 Cedar Avenue","Alamogordo","NM","88310",90,"Chad","Dog","Great Dane","2004-06-15","Male","","Black",223.97,,"",,,"",1,201.57,20.73
+80,33,"2004-03-15",78,"Elaine","Hall","(505) 646-2748","1790 Cedar Avenue","Alamogordo","NM","88310",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",4,27,20.73
+81,33,"2004-03-15",78,"Elaine","Hall","(505) 646-2748","1790 Cedar Avenue","Alamogordo","NM","88310",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",100,0.36,20.73
+82,34,"2004-04-06",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",46,"Lou Ann","Dog","Chinese Shar Pei","2004-01-08","Female","","Gold",254.85,,"",,,"",1,229.37,16.84
+83,34,"2004-04-06",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",1,40.5,16.84
+84,34,"2004-04-06",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",,"","","","","","","",,32,"Collar-Dog-Small",47,12,"Dog",1,10.8,16.84
+85,36,"2004-03-18",88,"Christa","Mallory","(703) 611-2557","6370 N. Main Street","Tysons Corner","VA","22101",17,"Jackie","Dog","Doberman","2004-04-12","Male","AKC","Black",165.73,,"",,,"",1,149.16,8.95
+86,37,"2004-03-17",21,"Sarah","Mills","(615) 646-9874","8904 Horseshoe Road","Smyrna","TN","37167",20,"Buck","Cat","Bombay","2004-04-30","Male","CFA","Black",213.18,,"",,,"",1,191.87,11.51
+87,38,"2004-02-10",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",23,"Craig","Dog","Poodle","2004-03-17","Male","AKC","White",108.32,,"",,,"",1,97.49,5.91
+88,38,"2004-02-10",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",1,0.36,5.91
+89,38,"2004-02-10",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",1,0.72,5.91
+90,39,"2004-10-19",51,"Clyde","Jernigan","(715) 483-7737","5325 Cherry Street","River Falls","WI","54022",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",10,0.36,0.49
+91,39,"2004-10-19",51,"Clyde","Jernigan","(715) 483-7737","5325 Cherry Street","River Falls","WI","54022",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",10,0.45,0.49
+92,40,"2004-04-07",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",26,"Orville","Dog","Shetland Sheepdog","2004-07-06","Male","AKC","Gray",242,,"",,,"",1,217.8,17.87
+93,40,"2004-04-07",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",1,76.5,17.87
+94,40,"2004-04-07",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",5,0.72,17.87
+95,41,"2004-06-09",38,"Jay","Franklin","(307) 477-8112","9105 Ridge Top Road","Laramie","WY","82070",27,"","Reptile","Gila Monster","2004-03-11","Male","","Green",192.08,,"",,,"",1,172.88,10.37
+96,42,"2004-03-21",3,"Dwight","Logan","(617) 843-6488","1760 Clearview Street","Boston","MA","02109",28,"","Spider","Tarantula","2004-02-07","Male","","Black",45,,"",,,"",1,40.5,7.02
+97,42,"2004-03-21",3,"Dwight","Logan","(617) 843-6488","1760 Clearview Street","Boston","MA","02109",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",1,9,7.02
+98,42,"2004-03-21",3,"Dwight","Logan","(617) 843-6488","1760 Clearview Street","Boston","MA","02109",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,7.02
+99,43,"2004-04-11",72,"Gayle","Bailey","(360) 649-9754","8233 Whisper Woods Road","Silver Lake-Fircrest","WA","98201",31,"Taylor","Dog","Mastiff","2004-02-15","Male","AKC","Brown",164.7,,"",,,"",1,148.23,10.51
+100,43,"2004-04-11",72,"Gayle","Bailey","(360) 649-9754","8233 Whisper Woods Road","Silver Lake-Fircrest","WA","98201",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",1,27,10.51
+101,44,"2004-02-17",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",70,"Chris","Dog","Akita","2004-02-08","Male","","White/Black",206.57,,"",,,"",1,185.92,0
+102,44,"2004-02-17",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,0
+103,45,"2004-03-13",28,"Gina","Samuels","(408) 575-7000","2026 Homewood Blvd.","Milpitas","CA","95035",196,"Buck","Dog","Doberman","2004-06-05","Male","","Black",253.54,,"",,,"",1,179.55,10.77
+104,46,"2004-06-02",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",14,"Tina","Cat","Sphynx","2004-01-06","Female","CFA","Gold",143.94,,"",,,"",1,129.55,20.4
+105,46,"2004-06-02",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",45,"Bernard","Cat","American Shorthair","2004-08-08","Male","CFA","Gray",182.77,,"",,,"",1,164.5,20.4
+106,46,"2004-06-02",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",1,31.5,20.4
+107,46,"2004-06-02",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",1,0.9,20.4
+108,46,"2004-06-02",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",,"","","","","","","",,36,"Leash",172,22,"Dog",1,13.5,20.4
+109,47,"2004-09-21",38,"Jay","Franklin","(307) 477-8112","9105 Ridge Top Road","Laramie","WY","82070",21,"Debbie","Bird","Cockatiel","2004-01-14","Female","","Blue",177.88,,"",,,"",1,160.1,0
+110,47,"2004-09-21",38,"Jay","Franklin","(307) 477-8112","9105 Ridge Top Road","Laramie","WY","82070",32,"Cathy","Cat","Scottish Fold","2004-06-05","Female","CFA","White",138.91,,"",,,"",1,125.03,0
+111,47,"2004-09-21",38,"Jay","Franklin","(307) 477-8112","9105 Ridge Top Road","Laramie","WY","82070",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,0
+112,48,"2004-02-16",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",174,"Lisa","Dog","Doberman","2004-02-24","Female","AKC","Brown",184.95,,"",,,"",1,166.46,10.5
+113,48,"2004-02-16",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",,"","","","","","","",,9,"Dog Food-Dry-10 pound",211,7.5,"Dog",1,6.75,10.5
+114,48,"2004-02-16",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",5,0.36,10.5
+115,49,"2004-09-16",66,"Adrian","Greer","(606) 683-4113","6597 Skyline Drive","Danville","KY","40422",29,"","Fish","Snail","2004-06-15","Male","","White",15,,"",,,"",1,13.5,2.7
+116,49,"2004-09-16",66,"Adrian","Greer","(606) 683-4113","6597 Skyline Drive","Danville","KY","40422",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,2.7
+117,50,"2004-09-28",82,"Basil","Davidson","(307) 448-5424","9102 Rocky Mound Road","Laramie","WY","82071",33,"Kent","Dog","Poodle-Toy","2004-05-30","Male","AKC","Gray/Blue",122.36,,"",,,"",1,110.13,13.11
+118,50,"2004-09-28",82,"Basil","Davidson","(307) 448-5424","9102 Rocky Mound Road","Laramie","WY","82071",200,"Brandy","Dog","Mastiff","2004-08-01","Female","AKC","Brown",120.36,,"",,,"",1,108.33,13.11
+119,51,"2004-06-19",80,"Juanita","Vance","(515) 846-5222","8916 High Street","Ames","IA","50010",30,"Golda","Dog","Bloodhound","2004-01-06","Female","AKC","Brown",187.62,,"",,,"",1,168.86,10.13
+120,52,"2004-06-18",57,"Phillip","Carter","(219) 263-2040","20 Green Street","Chapel Hill","NC","27514",40,"Hunter","Dog","Weimaraner","2004-04-02","Male","AKC","Brown",214.82,,"",,,"",1,193.34,11.6
+121,53,"2004-02-05",43,"Jasper","Killen","(517) 057-3491","4869 Sequoia Lane","Hillsdale","MI","48924",112,"Elizabeth","Cat","Persian","2004-01-15","Female","CFA","Gray",145.33,,"",,,"",1,130.81,7.85
+122,54,"2004-11-01",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",37,"Hunter","Dog","Bassett Hound","2004-05-04","Male","AKC","Brown",115.39,,"",,,"",1,103.86,23.19
+123,54,"2004-11-01",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",95,"Ashley","Cat","Sphynx","2004-01-25","Female","CFA","White",183.48,,"",,,"",1,165.14,23.19
+124,54,"2004-11-01",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",1,40.5,23.19
+125,54,"2004-11-01",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,2,"Dog Kennel-Medium",12,65,"Dog",1,58.5,23.19
+126,54,"2004-11-01",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",1,0.45,23.19
+127,54,"2004-11-01",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,32,"Collar-Dog-Small",47,12,"Dog",1,10.8,23.19
+128,54,"2004-11-01",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,23.19
+129,55,"2004-01-15",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",35,"Charles","Bird","Parakeet","2004-04-09","Male","","Blue/Gold",203.1,,"",,,"",1,182.8,12.32
+130,55,"2004-01-15",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,12.32
+131,56,"2004-12-22",99,"Luther","Bell","(717) 244-3484","5703 Cave Springs Road","Gettysburg","PA","17325",48,"Anthony","Cat","Japanese Bobtail","2004-06-16","Male","CFA","White",226.54,,"",,,"",1,203.89,12.23
+132,57,"2004-02-16",25,"Gaylen","Wilson","(502) 863-8898","1221 Johnson Drive","Hillview","KY","40229",43,"Chelsea","Reptile","Python","2004-02-10","Female","","Black/Gold",237.9,,"",,,"",1,214.12,22.84
+133,57,"2004-02-16",25,"Gaylen","Wilson","(502) 863-8898","1221 Johnson Drive","Hillview","KY","40229",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",1,9,22.84
+134,57,"2004-02-16",25,"Gaylen","Wilson","(502) 863-8898","1221 Johnson Drive","Hillview","KY","40229",,"","","","","","","",,24,"Aquarium-100 gal",11,150,"Fish",1,135,22.84
+135,57,"2004-02-16",25,"Gaylen","Wilson","(502) 863-8898","1221 Johnson Drive","Hillview","KY","40229",,"","","","","","","",,28,"Aquarium Light",65,25,"Fish",1,22.5,22.84
+136,58,"2004-10-24",74,"Frieda","Hinton","(606) 241-3182","9015 Cherokee Road","Florence","KY","41042",44,"Melanie","Dog","Mastiff","2004-06-18","Female","AKC","Black",141.17,,"",,,"",1,127.05,0
+137,58,"2004-10-24",74,"Frieda","Hinton","(606) 241-3182","9015 Cherokee Road","Florence","KY","41042",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,99,0
+138,58,"2004-10-24",74,"Frieda","Hinton","(606) 241-3182","9015 Cherokee Road","Florence","KY","41042",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",1,27,0
+139,58,"2004-10-24",74,"Frieda","Hinton","(606) 241-3182","9015 Cherokee Road","Florence","KY","41042",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",100,0.72,0
+140,59,"2004-08-23",1,"Walkin","Walkin","","","Unknown","AK","",39,"Doris","Dog","Rottweiler","2004-03-27","Female","AKC","Red",211.28,,"",,,"",1,190.16,11.41
+141,60,"2004-03-09",86,"Bert","Hooks","(618) 109-9250","9801 Hatchet Drive","O’Fallon","IL","62269",195,"Tom","Dog","Dalmation","2004-06-05","Male","AKC","Spotted",195.52,,"",,,"",1,175.97,11.68
+142,60,"2004-03-09",86,"Bert","Hooks","(618) 109-9250","9801 Hatchet Drive","O’Fallon","IL","62269",,"","","","","","","",,10,"Dog Food-Dry-25 pound",100,16,"Dog",1,14.4,11.68
+143,60,"2004-03-09",86,"Bert","Hooks","(618) 109-9250","9801 Hatchet Drive","O’Fallon","IL","62269",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",6,0.72,11.68
+144,61,"2004-02-08",43,"Jasper","Killen","(517) 057-3491","4869 Sequoia Lane","Hillsdale","MI","48924",49,"Martha","Cat","Korat","2004-03-16","Female","","Gray/Blue",218.95,,"",,,"",1,197.06,11.82
+145,62,"2004-02-08",91,"Conrad","Ferguson","(502) 882-7631","6300 Dorcas Drive","Saint Matthews","KY","40207",52,"Buck","Dog","St Bernard","2004-01-01","Male","AKC","Brown/White",231.44,,"",,,"",1,208.3,12.5
+146,63,"2004-12-09",20,"Reva","Kidd","(207) 585-7583","5594 Halltown Road","Bangor","ME","04401",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",10,0.45,0.27
+147,64,"2004-02-18",74,"Frieda","Hinton","(606) 241-3182","9015 Cherokee Road","Florence","KY","41042",50,"Arnold","Dog","Pomeranian","2004-05-18","Male","AKC","Gray/Blue",267.05,,"",,,"",1,240.35,17.07
+148,64,"2004-02-18",74,"Frieda","Hinton","(606) 241-3182","9015 Cherokee Road","Florence","KY","41042",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",1,40.5,17.07
+149,64,"2004-02-18",74,"Frieda","Hinton","(606) 241-3182","9015 Cherokee Road","Florence","KY","41042",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",1,3.6,17.07
+150,65,"2004-02-13",95,"Clarence","Kinser","(715) 140-4710","6964 Poplar Ridge Road","Eau Claire","WI","54701",54,"Sandy","Bird","Parrot","2004-01-23","Female","","Blue/Red",107.52,,"",,,"",1,96.78,7.16
+151,65,"2004-02-13",95,"Clarence","Kinser","(715) 140-4710","6964 Poplar Ridge Road","Eau Claire","WI","54701",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,7.16
+152,66,"2004-03-21",99,"Luther","Bell","(717) 244-3484","5703 Cave Springs Road","Gettysburg","PA","17325",147,"Kelly","Dog","Alaskan Malamute","2004-03-25","Male","AKC","White",272.52,,"",,,"",1,245.27,14.93
+153,66,"2004-03-21",99,"Luther","Bell","(717) 244-3484","5703 Cave Springs Road","Gettysburg","PA","17325",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",1,3.6,14.93
+154,67,"2004-03-09",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",41,"Claudia","Dog","Boston Terrier","2004-01-05","Female","AKC","Black",179.92,,"",,,"",1,161.94,31.68
+155,67,"2004-03-09",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",55,"Alice","Dog","Cairn Terrier","2004-01-03","Female","AKC","Gray/Blue",204.72,,"",,,"",1,184.25,31.68
+156,67,"2004-03-09",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",1,40.5,31.68
+157,67,"2004-03-09",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,2,"Dog Kennel-Medium",12,65,"Dog",1,58.5,31.68
+158,67,"2004-03-09",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",1,27,31.68
+159,67,"2004-03-09",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",12,0.72,31.68
+160,67,"2004-03-09",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,31,"Flea Collar-Dog-Large",1018,8.5,"Dog",1,7.65,31.68
+161,67,"2004-03-09",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,36,"Leash",172,22,"Dog",2,19.8,31.68
+162,68,"2004-01-11",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",57,"Darcy","Dog","Akita","2004-01-02","Male","AKC","White/Black",237.1,,"",,,"",1,213.39,12.8
+163,69,"2004-03-04",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",56,"Lillie","Cat","Abyssinian","2004-04-03","Female","CFA","White",227.39,,"",,,"",1,204.66,24.98
+164,69,"2004-03-04",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",65,"Bryce","Cat","Persian","2004-06-23","Male","CFA","White/Black",133.24,,"",,,"",1,119.92,24.98
+165,69,"2004-03-04",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",2,31.5,24.98
+166,69,"2004-03-04",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,8,"Cat Toy",182,3,"Cat",2,2.7,24.98
+167,69,"2004-03-04",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",10,0.9,24.98
+168,69,"2004-03-04",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",2,7.2,24.98
+169,70,"2004-04-13",11,"Lee","Gentry","(502) 444-1587","5744 High Street","Lawrenceburg","KY","40342",66,"Seth","Cat","Russian Blue","2004-01-09","Male","CFA","Gray/Blue",275.1,,"",,,"",1,247.6,14.86
+170,71,"2004-07-26",75,"Sharon","Sexton","(802) 433-5007","2551 Elementary Drive","Barre","VT","05641",97,"Ernest","Dog","Dachshund","2004-01-21","Male","AKC","Black",141.95,,"",,,"",1,127.76,9.02
+171,71,"2004-07-26",75,"Sharon","Sexton","(802) 433-5007","2551 Elementary Drive","Barre","VT","05641",,"","","","","","","",,5,"Cat Bed-Small",36,25,"Cat",1,22.5,9.02
+172,72,"2004-11-04",55,"Wendell","Thomas","(606) 375-0721","8963 Pine Branch Trace","Harrodsburg","KY","40330",60,"Everett","Dog","Australian Shepherd","2004-05-20","Male","AKC","Brown/White",325.69,,"",,,"",1,293.13,17.59
+173,73,"2004-08-15",20,"Reva","Kidd","(207) 585-7583","5594 Halltown Road","Bangor","ME","04401",69,"Inez","Dog","Border Collie","2004-02-24","Female","AKC","Brown/White",104.88,,"",,,"",1,94.39,7.61
+174,73,"2004-08-15",20,"Reva","Kidd","(207) 585-7583","5594 Halltown Road","Bangor","ME","04401",,"","","","","","","",,10,"Dog Food-Dry-25 pound",100,16,"Dog",1,14.4,7.61
+175,73,"2004-08-15",20,"Reva","Kidd","(207) 585-7583","5594 Halltown Road","Bangor","ME","04401",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,7.61
+176,74,"2004-04-17",50,"Lenny","Lee","(704) 979-1610","9940 Girkin Road","Charlotte","NC","28204",63,"Sandy","Cat","Persian","2004-02-19","Female","CFA","White",191.27,,"",,,"",1,172.15,10.46
+177,74,"2004-04-17",50,"Lenny","Lee","(704) 979-1610","9940 Girkin Road","Charlotte","NC","28204",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",5,0.45,10.46
+178,75,"2004-06-21",24,"Floyd","Young","(615) 969-8901","969 Windsor Park Lane","Murfreesboro","TN","37130",51,"Kelly","Dog","Golden Retriever","2004-01-16","Male","","Gold",246.05,,"",,,"",1,221.45,16.96
+179,75,"2004-06-21",24,"Floyd","Young","(615) 969-8901","969 Windsor Park Lane","Murfreesboro","TN","37130",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",3,13.5,16.96
+180,75,"2004-06-21",24,"Floyd","Young","(615) 969-8901","969 Windsor Park Lane","Murfreesboro","TN","37130",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,16.96
+181,75,"2004-06-21",24,"Floyd","Young","(615) 969-8901","969 Windsor Park Lane","Murfreesboro","TN","37130",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,16.96
+182,76,"2004-02-18",79,"Darcy","Pitts","(317) 995-8449","523 Shoreside Drive","Indianapolis","IN","46206",71,"Cora","Dog","Keeshond","2004-10-02","Female","AKC","Brown",119.67,,"",,,"",1,107.71,6.46
+183,77,"2004-11-08",7,"Anita","Robinson","(408) 104-9807","8177 Horse Park Lane","Milpitas","CA","95035",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,5.94
+184,77,"2004-11-08",7,"Anita","Robinson","(408) 104-9807","8177 Horse Park Lane","Milpitas","CA","95035",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,5.94
+185,78,"2004-08-08",48,"Dwight","Parrish","(508) 201-2483","9904 Plum Springs Road","Worcester","MA","01613",68,"Hoyt","Bird","Parrot","2004-03-28","Male","","Blue/Red",235.27,,"",,,"",1,211.75,12.71
+186,79,"2004-01-04",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",74,"Gina","Dog","Lhasa Apso","2004-01-25","Female","AKC","Brown/White",128.08,,"",,,"",1,115.28,9.18
+187,79,"2004-01-04",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",20,0.9,9.18
+188,79,"2004-01-04",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",10,0.9,9.18
+189,79,"2004-01-04",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,32,"Collar-Dog-Small",47,12,"Dog",1,10.8,9.18
+190,81,"2004-06-06",55,"Wendell","Thomas","(606) 375-0721","8963 Pine Branch Trace","Harrodsburg","KY","40330",79,"","Bird","Cockatiel","2004-02-26","Male","","Brown/Blue",224.47,,"",,,"",1,202.03,16.17
+191,81,"2004-06-06",55,"Wendell","Thomas","(606) 375-0721","8963 Pine Branch Trace","Harrodsburg","KY","40330",,"","","","","","","",,22,"Bird Cage-Large",15,75,"Bird",1,67.5,16.17
+192,82,"2004-05-05",36,"Lloyd","Holland","(501) 071-2650","9011 Bayshore Drive","Little Rock","AR","72201",75,"Ella","Dog","Chinese Shar Pei","2004-02-08","Female","AKC","Brown",131.83,,"",,,"",1,118.65,7.12
+193,83,"2004-11-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",82,"","Mammal","Ferret","2004-07-21","Male","","Brown",125,,"",,,"",1,112.5,13.18
+194,83,"2004-11-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,2,"Dog Kennel-Medium",12,65,"Dog",1,58.5,13.18
+195,83,"2004-11-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",10,0.9,13.18
+196,83,"2004-11-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",1,9,13.18
+197,83,"2004-11-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,32,"Collar-Dog-Small",47,12,"Dog",1,10.8,13.18
+198,83,"2004-11-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,13.18
+199,84,"2004-10-21",66,"Adrian","Greer","(606) 683-4113","6597 Skyline Drive","Danville","KY","40422",62,"Linda","Cat","Russian Blue","2004-08-22","Female","CFA","Gray/Blue",96.73,,"",,,"",1,87.06,7.11
+200,84,"2004-10-21",66,"Adrian","Greer","(606) 683-4113","6597 Skyline Drive","Danville","KY","40422",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",1,31.5,7.11
+201,85,"2004-03-28",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",80,"Oakley","Dog","Jack Russell Terrier","2004-08-09","Female","AKC","Brown/White",84.45,,"",,,"",1,76.01,6.48
+202,85,"2004-03-28",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,9,"Dog Food-Dry-10 pound",211,7.5,"Dog",1,6.75,6.48
+203,85,"2004-03-28",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",10,0.72,6.48
+204,85,"2004-03-28",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,32,"Collar-Dog-Small",47,12,"Dog",1,10.8,6.48
+205,85,"2004-03-28",71,"Herman","Moseley","(702) 867-1893","4461 Southern Drive","East Las Vegas","NV","89114",,"","","","","","","",,37,"Brush-Stiff",34,8,"Dog",1,7.2,6.48
+206,86,"2004-03-28",81,"Bessie","Baez","(606) 661-2765","7313 Humble Avenue","Cynthiana","KY","41031",81,"","Bird","Canary","2004-07-29","Female","","Yellow",229.44,,"",,,"",1,206.5,12.39
+207,87,"2004-02-17",68,"Ella","Kidd","(901) 312-1555","3626 Webster Road","Memphis","TN","38101",73,"Janet","Dog","Coon Hound","2004-02-24","Female","AKC","Brown",123.65,,"",,,"",1,111.29,9.43
+208,87,"2004-02-17",68,"Ella","Kidd","(901) 312-1555","3626 Webster Road","Memphis","TN","38101",,"","","","","","","",,30,"Flea Collar-Dog-Medium",429,7,"Dog",2,6.3,9.43
+209,87,"2004-02-17",68,"Ella","Kidd","(901) 312-1555","3626 Webster Road","Memphis","TN","38101",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,9.43
+210,87,"2004-02-17",68,"Ella","Kidd","(901) 312-1555","3626 Webster Road","Memphis","TN","38101",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,9.43
+211,88,"2004-01-28",81,"Bessie","Baez","(606) 661-2765","7313 Humble Avenue","Cynthiana","KY","41031",77,"Damon","Cat","Bombay","2004-01-17","Male","CFA","Black",178.16,,"",,,"",1,160.35,17.07
+212,88,"2004-01-28",81,"Bessie","Baez","(606) 661-2765","7313 Humble Avenue","Cynthiana","KY","41031",86,"","Fish","Tetra","2004-01-02","Female","","Black",22,,"",,,"",1,19.8,17.07
+213,88,"2004-01-28",81,"Bessie","Baez","(606) 661-2765","7313 Humble Avenue","Cynthiana","KY","41031",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,17.07
+214,88,"2004-01-28",81,"Bessie","Baez","(606) 661-2765","7313 Humble Avenue","Cynthiana","KY","41031",,"","","","","","","",,26,"Aquarium Decoration",48,6,"Fish",1,5.4,17.07
+215,88,"2004-01-28",81,"Bessie","Baez","(606) 661-2765","7313 Humble Avenue","Cynthiana","KY","41031",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,17.07
+216,89,"2004-03-11",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",83,"Laura","Dog","Chihuahua","2004-01-25","Female","AKC","Brown",155.46,,"",,,"",1,139.92,10.61
+217,89,"2004-03-11",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",,"","","","","","","",,5,"Cat Bed-Small",36,25,"Cat",1,22.5,10.61
+218,89,"2004-03-11",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",,"","","","","","","",,10,"Dog Food-Dry-25 pound",100,16,"Dog",1,14.4,10.61
+219,90,"2004-01-28",40,"Darrell","Oberhausen","(612) 089-0074","9556 Cumberland Hills Drive","Saint Paul","MN","55101",89,"Ben","Dog","German Shepherd","2004-01-10","Male","","Black/White",153.94,,"",,,"",1,138.55,9.93
+220,90,"2004-01-28",40,"Darrell","Oberhausen","(612) 089-0074","9556 Cumberland Hills Drive","Saint Paul","MN","55101",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",2,3.6,9.93
+221,90,"2004-01-28",40,"Darrell","Oberhausen","(612) 089-0074","9556 Cumberland Hills Drive","Saint Paul","MN","55101",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,9.93
+222,91,"2004-02-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",84,"Patricia","Cat","Angora","2004-02-26","Female","","White",294.26,,"",,,"",1,264.84,16.46
+223,91,"2004-02-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",5,0.45,16.46
+224,91,"2004-02-16",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,16.46
+225,92,"2004-09-20",90,"Connie","Nichols","(408) 427-2162","4039 Greensburg Street","Milpitas","CA","95035",91,"Russell","Dog","Pit Bull","2004-05-23","Male","AKC","Brown",171.59,,"",,,"",1,154.44,9.27
+226,93,"2004-02-12",25,"Gaylen","Wilson","(502) 863-8898","1221 Johnson Drive","Hillview","KY","40229",78,"Hunter","Dog","Great Dane","2004-01-02","Male","AKC","Brown",215.74,,"",,,"",1,194.17,17.64
+227,93,"2004-02-12",25,"Gaylen","Wilson","(502) 863-8898","1221 Johnson Drive","Hillview","KY","40229",,"","","","","","","",,10,"Dog Food-Dry-25 pound",100,16,"Dog",1,14.4,17.64
+228,93,"2004-02-12",25,"Gaylen","Wilson","(502) 863-8898","1221 Johnson Drive","Hillview","KY","40229",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,17.64
+229,93,"2004-02-12",25,"Gaylen","Wilson","(502) 863-8898","1221 Johnson Drive","Hillview","KY","40229",,"","","","","","","",,36,"Leash",172,22,"Dog",1,67.5,17.64
+230,94,"2004-01-13",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",93,"Trina","Dog","Greyhound","2004-01-05","Female","AKC","Gray",143.07,,"",,,"",1,128.77,7.99
+231,94,"2004-01-13",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",6,0.72,7.99
+232,95,"2004-05-19",78,"Elaine","Hall","(505) 646-2748","1790 Cedar Avenue","Alamogordo","NM","88310",98,"Ricardo","Dog","Bulldog","2004-02-03","Male","AKC","Black",177.2,,"",,,"",1,159.48,13.89
+233,95,"2004-05-19",78,"Elaine","Hall","(505) 646-2748","1790 Cedar Avenue","Alamogordo","NM","88310",,"","","","","","","",,2,"Dog Kennel-Medium",12,65,"Dog",1,58.5,13.89
+234,95,"2004-05-19",78,"Elaine","Hall","(505) 646-2748","1790 Cedar Avenue","Alamogordo","NM","88310",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,13.89
+235,96,"2004-10-24",12,"Chris","Haley","(608) 006-2256","6087 Spring Street","La Crosse","WI","54601",61,"Sandy","Dog","Chinese Shar Pei","2004-06-01","Female","","Brown",221.55,,"",,,"",1,199.4,11.96
+236,97,"2004-06-01",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",99,"","Mammal","Ferret","2004-07-27","Male","","Black",230.89,,"",,,"",1,207.81,17.06
+237,97,"2004-06-01",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",1,9,17.06
+238,97,"2004-06-01",56,"Sidney","Hughes","(507) 437-0059","4386 Sherwood Lane","Albert Lea","MN","56007",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,17.06
+239,98,"2004-08-13",63,"Earl","Grimes","(301) 485-6261","6485 Pepper Street","Frederick","MD","21701",87,"Christine","Dog","Norfolk Terrier","2004-08-14","Female","AKC","Red",208.12,,"",,,"",1,187.31,11.24
+240,99,"2004-01-11",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",101,"Bessie","Dog","Australian Shepherd","2004-01-03","Female","AKC","White/Brown",216.1,,"",,,"",1,194.49,16.26
+241,99,"2004-01-11",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",1,76.5,16.26
+242,100,"2004-09-13",84,"David","Sims","(617) 467-3438","6623 Glenview Drive","Boston","MA","02116",96,"Stan","Cat","Sphynx","2004-01-01","Male","CFA","Black",241.67,,"",,,"",1,217.51,14.4
+243,100,"2004-09-13",84,"David","Sims","(617) 467-3438","6623 Glenview Drive","Boston","MA","02116",,"","","","","","","",,5,"Cat Bed-Small",36,25,"Cat",1,22.5,14.4
+244,101,"2004-08-09",90,"Connie","Nichols","(408) 427-2162","4039 Greensburg Street","Milpitas","CA","95035",104,"Julie","Cat","Longhair","2004-02-18","Female","CFA","Yellow",180.38,,"",,,"",1,162.35,22.62
+245,101,"2004-08-09",90,"Connie","Nichols","(408) 427-2162","4039 Greensburg Street","Milpitas","CA","95035",111,"Martin","Dog","Keeshond","2004-03-08","Male","AKC","Black",238.55,,"",,,"",1,214.7,22.62
+246,102,"2004-05-31",26,"Trina","Howe","(606) 691-9745","2821 35th Street","Corbin","KY","40701",100,"Bill","Cat","Scottish Fold","2004-08-06","Male","CFA","Gray",132.79,,"",,,"",1,119.52,7.17
+247,103,"2004-12-03",86,"Bert","Hooks","(618) 109-9250","9801 Hatchet Drive","O’Fallon","IL","62269",191,"Cassy","Dog","Collie","2004-02-13","Female","AKC","Brown/White",233.43,,"",,,"",1,210.09,12.61
+248,104,"2004-02-13",13,"Jolene","Garrison","(304) 477-6629","1830 Glenview Drive","Elkins","WV","26261",103,"Lee","Cat","Siamese","2004-07-17","Male","CFA","White/Black",232.9,,"",,,"",1,209.62,13.39
+249,104,"2004-02-13",13,"Jolene","Garrison","(304) 477-6629","1830 Glenview Drive","Elkins","WV","26261",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",7,0.9,13.39
+250,104,"2004-02-13",13,"Jolene","Garrison","(304) 477-6629","1830 Glenview Drive","Elkins","WV","26261",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,13.39
+251,105,"2004-02-14",57,"Phillip","Carter","(219) 263-2040","20 Green Street","Chapel Hill","NC","27514",109,"","Fish","Angel","2004-04-05","Female","","Yellow",128.22,,"",,,"",1,115.4,6.92
+252,106,"2004-02-17",79,"Darcy","Pitts","(317) 995-8449","523 Shoreside Drive","Indianapolis","IN","46206",105,"Beth","Dog","Akita","2004-02-06","Female","AKC","White/Brown",177.06,,"",,,"",1,159.36,9.67
+253,106,"2004-02-17",79,"Darcy","Pitts","(317) 995-8449","523 Shoreside Drive","Indianapolis","IN","46206",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",4,0.45,9.67
+254,107,"2004-02-10",38,"Jay","Franklin","(307) 477-8112","9105 Ridge Top Road","Laramie","WY","82070",102,"Leonard","Dog","Mastiff","2004-09-18","Male","AKC","Brown",197.31,,"",,,"",1,177.59,10.66
+255,108,"2004-07-15",34,"Cathy","Hampton","(414) 168-2952","7295 Hazel Path","Milwaukee","WI","53203",110,"Cathy","Bird","African Grey","2004-07-05","Female","","Gray/Red",192.77,,"",,,"",1,173.5,14.46
+256,108,"2004-07-15",34,"Cathy","Hampton","(414) 168-2952","7295 Hazel Path","Milwaukee","WI","53203",,"","","","","","","",,22,"Bird Cage-Large",15,75,"Bird",1,67.5,14.46
+257,109,"2004-01-29",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",115,"Jewell","Cat","Korat","2004-01-15","Female","CFA","Black",210.88,,"",,,"",1,189.79,27.07
+258,109,"2004-01-29",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",164,"Ruby","Bird","Parakeet","2004-01-19","Female","","Red",253.43,,"",,,"",1,228.09,27.07
+259,109,"2004-01-29",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",,"","","","","","","",,8,"Cat Toy",182,3,"Cat",1,2.7,27.07
+260,109,"2004-01-29",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",1,0.9,27.07
+261,109,"2004-01-29",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,27.07
+262,109,"2004-01-29",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,27.07
+263,110,"2004-03-05",19,"Lisa","Zhang","(505) 825-4065","477 Rolling Acres Drive","Santa Fe","NM","87501",108,"Anissa","Dog","Bloodhound","2004-04-04","Female","AKC","Brown",169.13,,"",,,"",1,152.22,9.13
+264,111,"2004-02-10",23,"Jerome","Cummings","(606) 084-6983","2501 Club Circle","Westwoods","KY","41101",116,"","Bird","Parrot","2004-06-01","Male","","Blue/Gold",133.01,,"",,,"",1,119.71,7.18
+265,112,"2004-02-19",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",118,"","Fish","Guppy","2004-05-05","Female","","Brown",4,,"",,,"",1,3.6,7.99
+266,112,"2004-02-19",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,7.99
+267,112,"2004-02-19",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,25,"Fish Food",113,3,"Fish",3,2.7,7.99
+268,112,"2004-02-19",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,7.99
+269,112,"2004-02-19",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",,"","","","","","","",,28,"Aquarium Light",65,25,"Fish",1,22.5,7.99
+270,113,"2004-02-16",37,"Fannie","McPherson","(517) 039-8300","4184 Tick Ridge Road","Hillsdale","MI","48924",85,"Dwight","Dog","Dachshund","2004-03-03","Male","AKC","Brown",178.64,,"",,,"",1,160.78,11.67
+271,113,"2004-02-16",37,"Fannie","McPherson","(517) 039-8300","4184 Tick Ridge Road","Hillsdale","MI","48924",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",1,31.5,11.67
+272,113,"2004-02-16",37,"Fannie","McPherson","(517) 039-8300","4184 Tick Ridge Road","Hillsdale","MI","48924",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",6,0.36,11.67
+273,114,"2004-10-08",80,"Juanita","Vance","(515) 846-5222","8916 High Street","Ames","IA","50010",94,"Jean","Dog","Siberian Huskie","2004-07-01","Female","AKC","White/Brown",223.38,,"",,,"",1,201.04,12.06
+274,115,"2004-06-04",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",117,"Wallace","Cat","Other","2004-08-09","Male","CFA","Brown",50,,"",,,"",1,45,2.7
+275,116,"2004-09-20",38,"Jay","Franklin","(307) 477-8112","9105 Ridge Top Road","Laramie","WY","82070",119,"DuJuan","Reptile","Boa Constrictor","2004-04-26","Male","","Brown/Gold",202.56,,"",,,"",1,182.31,10.94
+276,117,"2004-08-20",95,"Clarence","Kinser","(715) 140-4710","6964 Poplar Ridge Road","Eau Claire","WI","54701",124,"Trina","Cat","Oriental Shorthair","2004-05-25","Female","CFA","Gray",187.7,,"",,,"",1,168.93,10.14
+277,118,"2004-01-30",72,"Gayle","Bailey","(360) 649-9754","8233 Whisper Woods Road","Silver Lake-Fircrest","WA","98201",122,"Gayle","Cat","Bombay","2004-02-14","Female","CFA","Black",282.84,,"",,,"",1,254.56,16.19
+278,118,"2004-01-30",72,"Gayle","Bailey","(360) 649-9754","8233 Whisper Woods Road","Silver Lake-Fircrest","WA","98201",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",1,0.9,16.19
+279,118,"2004-01-30",72,"Gayle","Bailey","(360) 649-9754","8233 Whisper Woods Road","Silver Lake-Fircrest","WA","98201",,"","","","","","","",,35,"Collar-Cat",150,8,"Cat",1,7.2,16.19
+280,118,"2004-01-30",72,"Gayle","Bailey","(360) 649-9754","8233 Whisper Woods Road","Silver Lake-Fircrest","WA","98201",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,16.19
+281,119,"2004-06-02",39,"Dorothy","Williams","(304) 352-8602","9286 Jackson Avenue","Teays Valley","WV","25550",126,"Pierre","Cat","Maine Coon","2004-04-11","Male","CFA","Brown/Yellow",189.27,,"",,,"",1,170.34,10.22
+282,120,"2004-06-20",6,"Searoba","Hopkins","(606) 740-3304","3183 Highland Court","Harrodsburg","KY","40330",113,"Courtney","Dog","Boston Terrier","2004-03-12","Female","AKC","Black",142.61,,"",,,"",1,128.36,9.7
+283,120,"2004-06-20",6,"Searoba","Hopkins","(606) 740-3304","3183 Highland Court","Harrodsburg","KY","40330",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,9.7
+284,120,"2004-06-20",6,"Searoba","Hopkins","(606) 740-3304","3183 Highland Court","Harrodsburg","KY","40330",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,9.7
+285,121,"2004-06-06",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",128,"Henry","Dog","German Shepherd","2004-07-16","Male","AKC","Black/White",155.95,,"",,,"",1,140.36,14.2
+286,121,"2004-06-06",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",1,58.5,14.2
+287,121,"2004-06-06",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,14.2
+288,121,"2004-06-06",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,14.2
+289,122,"2004-10-11",29,"Kelly","Moore","(802) 078-4749","6116 Clearview Street","Middlebury","VT","05753",121,"Rachel","Dog","Norfolk Terrier","2004-08-02","Female","AKC","Gray",284.54,,"",,,"",1,256.09,15.37
+290,123,"2004-04-05",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",129,"","Fish","Snail","2004-08-02","Male","","Yellow",16,,"",,,"",1,14.4,2.21
+291,123,"2004-04-05",35,"Kimberly","Adams","(406) 987-9338","5064 Pleasant Valley Drive","Kalispell","MT","59901",,"","","","","","","",,28,"Aquarium Light",65,25,"Fish",1,22.5,2.21
+292,124,"2004-02-17",48,"Dwight","Parrish","(508) 201-2483","9904 Plum Springs Road","Worcester","MA","01613",106,"Taylor","Cat","Oriental Shorthair","2004-02-21","Male","CFA","Yellow/Black",220.94,,"",,,"",1,198.85,11.93
+293,125,"2004-06-11",76,"Evelyn","Montgomery","(304) 062-1621","6386 Main Street","Teays Valley","WV","25550",127,"Beth","Cat","British Blue","2004-01-09","Female","CFA","Gray/Blue",195.72,,"",,,"",1,176.15,10.57
+294,126,"2004-11-09",90,"Connie","Nichols","(408) 427-2162","4039 Greensburg Street","Milpitas","CA","95035",133,"Anissa","Cat","Canadian Hairless","2004-07-13","Female","CFA","Gray",328.17,,"",,,"",1,295.36,17.72
+295,127,"2004-10-17",65,"Linda","Riggs","(817) 528-7955","593 White Oak Court","White Settlement","TX","76101",134,"","Reptile","Gila Monster","2004-02-08","Male","","Brown",182.36,,"",,,"",1,164.13,14.44
+296,127,"2004-10-17",65,"Linda","Riggs","(817) 528-7955","593 White Oak Court","White Settlement","TX","76101",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",1,9,14.44
+297,127,"2004-10-17",65,"Linda","Riggs","(817) 528-7955","593 White Oak Court","White Settlement","TX","76101",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,14.44
+298,128,"2004-04-09",43,"Jasper","Killen","(517) 057-3491","4869 Sequoia Lane","Hillsdale","MI","48924",120,"Chester","Dog","Keeshond","2004-02-25","Male","AKC","Black",216.91,,"",,,"",1,195.23,13.98
+299,128,"2004-04-09",43,"Jasper","Killen","(517) 057-3491","4869 Sequoia Lane","Hillsdale","MI","48924",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,13.98
+300,128,"2004-04-09",43,"Jasper","Killen","(517) 057-3491","4869 Sequoia Lane","Hillsdale","MI","48924",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,13.98
+301,129,"2004-09-24",58,"Sam","McCain","(703) 543-0176","445 Industrial Drive","Tysons Corner","VA","22101",92,"Terry","Bird","Lovebird","2004-02-04","Male","","White",180.16,,"",,,"",1,162.15,11.08
+302,129,"2004-09-24",58,"Sam","McCain","(703) 543-0176","445 Industrial Drive","Tysons Corner","VA","22101",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,11.08
+303,130,"2004-03-06",9,"Elwood","Henson","(702) 533-3419","4042 West Ridge Drive","Las Vegas","NV","89125",136,"","Bird","Other","2004-08-11","Male","","White",206.77,,"",,,"",1,186.1,11.17
+304,131,"2004-04-23",59,"Cindy","Rhodes","(360) 917-7520","7425 Virginia Street","Tanglewilde-Thompson Place","WA","98501",132,"Dennis","Cat","Angora","2004-07-13","Male","","White",157.01,,"",,,"",1,141.31,8.91
+305,131,"2004-04-23",59,"Cindy","Rhodes","(360) 917-7520","7425 Virginia Street","Tanglewilde-Thompson Place","WA","98501",,"","","","","","","",,37,"Brush-Stiff",34,8,"Dog",1,7.2,8.91
+306,132,"2004-02-17",28,"Gina","Samuels","(408) 575-7000","2026 Homewood Blvd.","Milpitas","CA","95035",131,"Elvis","Dog","Mastiff","2004-03-11","Male","AKC","Black",214.39,,"",,,"",1,192.96,11.58
+307,133,"2004-03-19",54,"Mark","Green","(502) 971-2715","8968 Camino Circle","Fern Creek","KY","40291",139,"Claudia","Dog","Doberman","2004-08-02","Female","AKC","Black",220.97,,"",,,"",1,198.88,14.66
+308,133,"2004-03-19",54,"Mark","Green","(502) 971-2715","8968 Camino Circle","Fern Creek","KY","40291",,"","","","","","","",,31,"Flea Collar-Dog-Large",1018,8.5,"Dog",1,7.65,14.66
+309,133,"2004-03-19",54,"Mark","Green","(502) 971-2715","8968 Camino Circle","Fern Creek","KY","40291",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,14.66
+310,133,"2004-03-19",54,"Mark","Green","(502) 971-2715","8968 Camino Circle","Fern Creek","KY","40291",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,14.66
+311,134,"2004-02-18",75,"Sharon","Sexton","(802) 433-5007","2551 Elementary Drive","Barre","VT","05641",141,"MaryJo","Dog","Pit Bull","2004-06-22","Female","AKC","Brown",234.51,,"",,,"",1,211.06,13.85
+312,134,"2004-02-18",75,"Sharon","Sexton","(802) 433-5007","2551 Elementary Drive","Barre","VT","05641",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,13.85
+313,135,"2004-10-11",58,"Sam","McCain","(703) 543-0176","445 Industrial Drive","Tysons Corner","VA","22101",197,"","Spider","Tarantula","2004-06-10","Female","","Black",221.85,,"",,,"",1,199.67,16.57
+314,135,"2004-10-11",58,"Sam","McCain","(703) 543-0176","445 Industrial Drive","Tysons Corner","VA","22101",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",1,9,16.57
+315,135,"2004-10-11",58,"Sam","McCain","(703) 543-0176","445 Industrial Drive","Tysons Corner","VA","22101",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,16.57
+316,136,"2004-02-21",42,"Jackie","Froedge","(615) 041-1934","243 West Ridge Drive","Brentwood","TN","37027",137,"","Fish","Shark","2004-01-24","Female","","Gray",238.52,,"",,,"",1,214.67,12.88
+317,137,"2004-10-26",46,"Cassy","Tuck","(201) 654-2441","7977 Fairways Drive","Clifton","NJ","07015",130,"Darrell","Dog","Greyhound","2004-07-14","Male","AKC","Gray",157.83,,"",,,"",1,142.05,22.19
+318,137,"2004-10-26",46,"Cassy","Tuck","(201) 654-2441","7977 Fairways Drive","Clifton","NJ","07015",143,"Leisha","Cat","Korat","2004-05-20","Female","CFA","Brown",163.07,,"",,,"",1,146.76,22.19
+319,137,"2004-10-26",46,"Cassy","Tuck","(201) 654-2441","7977 Fairways Drive","Clifton","NJ","07015",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",1,27,22.19
+320,137,"2004-10-26",46,"Cassy","Tuck","(201) 654-2441","7977 Fairways Drive","Clifton","NJ","07015",,"","","","","","","",,14,"Cat Food-Dry-25 pound",300,18,"Cat",1,16.2,22.19
+321,137,"2004-10-26",46,"Cassy","Tuck","(201) 654-2441","7977 Fairways Drive","Clifton","NJ","07015",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,22.19
+322,137,"2004-10-26",46,"Cassy","Tuck","(201) 654-2441","7977 Fairways Drive","Clifton","NJ","07015",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,22.19
+323,138,"2004-08-16",74,"Frieda","Hinton","(606) 241-3182","9015 Cherokee Road","Florence","KY","41042",125,"Harlen","Dog","Cocker Spaniel","2004-03-17","Male","AKC","Yellow",193.08,,"",,,"",1,173.77,10.43
+324,139,"2004-03-14",36,"Lloyd","Holland","(501) 071-2650","9011 Bayshore Drive","Little Rock","AR","72201",145,"Ruby","Dog","Weimaraner","2004-03-23","Female","AKC","Brown",201.85,,"",,,"",1,181.67,11.74
+325,139,"2004-03-14",36,"Lloyd","Holland","(501) 071-2650","9011 Bayshore Drive","Little Rock","AR","72201",,"","","","","","","",,9,"Dog Food-Dry-10 pound",211,7.5,"Dog",1,6.75,11.74
+326,139,"2004-03-14",36,"Lloyd","Holland","(501) 071-2650","9011 Bayshore Drive","Little Rock","AR","72201",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,11.74
+327,140,"2004-03-14",95,"Clarence","Kinser","(715) 140-4710","6964 Poplar Ridge Road","Eau Claire","WI","54701",146,"Kevin","Cat","Siamese","2004-03-24","Male","CFA","White",93.07,,"",,,"",1,83.77,5.03
+328,141,"2004-03-19",46,"Cassy","Tuck","(201) 654-2441","7977 Fairways Drive","Clifton","NJ","07015",148,"Wayne","Dog","Akita","2004-02-09","Male","AKC","White",257.89,,"",,,"",1,232.11,13.93
+329,142,"2004-01-30",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",150,"Brian","Dog","Norfolk Terrier","2004-01-03","Male","AKC","Yellow",168.8,,"",,,"",1,151.92,24.39
+330,142,"2004-01-30",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",160,"Rufus","Dog","Cocker Spaniel","2004-01-02","Male","AKC","Yellow",176.79,,"",,,"",1,159.12,24.39
+331,142,"2004-01-30",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",2,3.6,24.39
+332,142,"2004-01-30",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",1,27,24.39
+333,142,"2004-01-30",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",,"","","","","","","",,32,"Collar-Dog-Small",47,12,"Dog",2,10.8,24.39
+334,142,"2004-01-30",69,"Mandy","Elliott","(919) 205-8147","4839 Long Hollow Pike","Chapel Hill","NC","27514",,"","","","","","","",,36,"Leash",172,22,"Dog",2,19.8,24.39
+335,143,"2004-02-17",51,"Clyde","Jernigan","(715) 483-7737","5325 Cherry Street","River Falls","WI","54022",135,"","Mammal","Ferret","2004-07-24","Female","","Brown",125.23,,"",,,"",1,112.71,8.11
+336,143,"2004-02-17",51,"Clyde","Jernigan","(715) 483-7737","5325 Cherry Street","River Falls","WI","54022",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,8.11
+337,144,"2004-01-27",59,"Cindy","Rhodes","(360) 917-7520","7425 Virginia Street","Tanglewilde-Thompson Place","WA","98501",151,"Lester","Bird","Parrot","2004-04-09","Male","","Red",244.19,,"",,,"",1,219.78,17.24
+338,144,"2004-01-27",59,"Cindy","Rhodes","(360) 917-7520","7425 Virginia Street","Tanglewilde-Thompson Place","WA","98501",,"","","","","","","",,22,"Bird Cage-Large",15,75,"Bird",1,67.5,17.24
+339,145,"2004-03-25",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",149,"Elizabeth","Cat","Tonkinese","2004-06-06","Female","CFA","Yellow",138.82,,"",,,"",1,124.94,26.37
+340,145,"2004-03-25",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",153,"Owen","Cat","Manx","2004-06-28","Male","","Yellow",234.54,,"",,,"",1,211.09,26.37
+341,145,"2004-03-25",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",2,31.5,26.37
+342,145,"2004-03-25",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,8,"Cat Toy",182,3,"Cat",3,2.7,26.37
+343,145,"2004-03-25",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",20,0.9,26.37
+344,145,"2004-03-25",8,"Cora","Reid","(606) 688-8141","8351 Locust Street","Bellevue","KY","41073",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",2,7.2,26.37
+345,146,"2004-03-19",98,"Wilmer","Pardue","(701) 691-3002","1790 N. Main Street","Fargo","ND","58102",140,"Cal","Cat","Persian","2004-07-21","Male","CFA","White",134.8,,"",,,"",1,121.33,7.28
+346,147,"2004-03-19",18,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",156,"Alvin","Dog","Collie","2004-01-21","Male","AKC","Yellow",280.59,,"",,,"",1,252.53,18.01
+347,147,"2004-03-19",18,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,10,"Dog Food-Dry-25 pound",100,16,"Dog",1,14.4,18.01
+348,147,"2004-03-19",18,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,18.01
+349,147,"2004-03-19",18,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,18.01
+350,148,"2004-07-29",80,"Juanita","Vance","(515) 846-5222","8916 High Street","Ames","IA","50010",176,"DuJuan","Dog","Coon Hound","2004-05-14","Male","AKC","Brown",295.28,,"",,,"",1,162.84,12.63
+351,148,"2004-07-29",80,"Juanita","Vance","(515) 846-5222","8916 High Street","Ames","IA","50010",,"","","","","","","",,10,"Dog Food-Dry-25 pound",100,16,"Dog",1,14.4,12.63
+352,148,"2004-07-29",80,"Juanita","Vance","(515) 846-5222","8916 High Street","Ames","IA","50010",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,12.63
+353,148,"2004-07-29",80,"Juanita","Vance","(515) 846-5222","8916 High Street","Ames","IA","50010",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,12.63
+354,149,"2004-05-30",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",138,"Owen","Cat","Japanese Bobtail","2004-05-21","Male","CFA","White",232.46,,"",,,"",1,209.22,12.55
+355,150,"2004-05-09",14,"Beth","Patterson","(614) 721-2870","3688 Long Hollow Pike","Columbus","OH","43216",154,"Orville","Dog","English Bulldog","2004-04-15","Male","AKC","Yellow",197.01,,"",,,"",1,177.31,12.64
+356,150,"2004-05-09",14,"Beth","Patterson","(614) 721-2870","3688 Long Hollow Pike","Columbus","OH","43216",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",1,13.5,12.64
+357,150,"2004-05-09",14,"Beth","Patterson","(614) 721-2870","3688 Long Hollow Pike","Columbus","OH","43216",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,12.64
+358,151,"2004-07-30",5,"Charlotte","Anderson","(701) 384-5623","4333 Highland Court","Fargo","ND","58102",152,"Heather","Dog","Collie","2004-06-03","Female","AKC","Brown/Yellow",218.83,,"",,,"",1,196.95,11.82
+359,152,"2004-06-02",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",155,"Stephen","Cat","Siamese","2004-02-28","Male","","White",222.93,,"",,,"",1,200.64,24.79
+360,152,"2004-06-02",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",166,"Katy","Cat","Japanese Bobtail","2004-03-25","Female","CFA","Yellow",163.72,,"",,,"",1,147.35,24.79
+361,152,"2004-06-02",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",2,31.5,24.79
+362,152,"2004-06-02",30,"Rodney","Edmunds","(919) 014-7544","5560 Greenfield Lane","Chapel Hill","NC","27514",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",5,0.45,24.79
+363,153,"2004-02-18",75,"Sharon","Sexton","(802) 433-5007","2551 Elementary Drive","Barre","VT","05641",142,"Susan","Dog","Siberian Huskie","2004-08-03","Female","AKC","White",180.93,,"",,,"",1,162.84,10.2
+364,153,"2004-02-18",75,"Sharon","Sexton","(802) 433-5007","2551 Elementary Drive","Barre","VT","05641",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",10,0.72,10.2
+365,154,"2004-11-05",27,"Archie","Mitchell","(608) 825-3740","1326 Cedar Avenue","Sun Prairie","WI","53590",144,"Dewey","Dog","Poodle-Toy","2004-05-07","Male","AKC","Black",182.6,,"",,,"",1,164.34,9.86
+366,155,"2004-03-19",58,"Sam","McCain","(703) 543-0176","445 Industrial Drive","Tysons Corner","VA","22101",157,"","Bird","Parrot","2004-04-12","Male","","Red",237.81,,"",,,"",1,214.04,16.89
+367,155,"2004-03-19",58,"Sam","McCain","(703) 543-0176","445 Industrial Drive","Tysons Corner","VA","22101",,"","","","","","","",,22,"Bird Cage-Large",15,75,"Bird",1,67.5,16.89
+368,156,"2004-05-15",66,"Adrian","Greer","(606) 683-4113","6597 Skyline Drive","Danville","KY","40422",,"","","","","","","",,14,"Cat Food-Dry-25 pound",300,18,"Cat",2,6.3,14.79
+369,156,"2004-05-15",66,"Adrian","Greer","(606) 683-4113","6597 Skyline Drive","Danville","KY","40422",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",10,0.72,14.79
+370,156,"2004-05-15",66,"Adrian","Greer","(606) 683-4113","6597 Skyline Drive","Danville","KY","40422",159,"","Reptile","Python","2004-01-13","Male","","Black",141.98,,"",,,"",1,127.78,14.79
+371,156,"2004-05-15",66,"Adrian","Greer","(606) 683-4113","6597 Skyline Drive","Danville","KY","40422",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,99,14.79
+372,157,"2004-03-19",44,"Dale","Hammer","(412) 933-3710","9707 Elm Hill Circle","Scott Twp.","PA","15106",158,"Russell","Dog","Shetland Sheepdog","2004-03-20","Male","AKC","White/Brown",167.16,,"",,,"",1,150.45,10.86
+373,157,"2004-03-19",44,"Dale","Hammer","(412) 933-3710","9707 Elm Hill Circle","Scott Twp.","PA","15106",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,10.8,10.86
+374,157,"2004-03-19",44,"Dale","Hammer","(412) 933-3710","9707 Elm Hill Circle","Scott Twp.","PA","15106",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,10.86
+375,158,"2004-03-24",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",161,"Bernard","Dog","Keeshond","2004-05-11","Male","","Red",244.9,,"",,,"",1,220.41,20.08
+376,158,"2004-03-24",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,76.5,20.08
+377,158,"2004-03-24",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,20.08
+378,158,"2004-03-24",94,"Dan","Kennedy","(802) 458-4329","3108 Troon Court","South Burlington","VT","05401",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,20.08
+379,159,"2004-09-17",53,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",165,"Julie","Dog","Dalmation","2004-08-28","Female","AKC","Spotted",172.37,,"",,,"",1,155.14,15.25
+380,159,"2004-09-17",53,"David","Lawrence","(414) 331-5679","9326 Halltown Road","Beaver Dam","WI","53916",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,99,15.25
+381,160,"2004-08-24",27,"Archie","Mitchell","(608) 825-3740","1326 Cedar Avenue","Sun Prairie","WI","53590",168,"Ray","Cat","Japanese Bobtail","2004-06-04","Male","CFA","Black",225.68,,"",,,"",1,203.12,16.18
+382,160,"2004-08-24",27,"Archie","Mitchell","(608) 825-3740","1326 Cedar Avenue","Sun Prairie","WI","53590",173,"","Mammal","Hamster","2004-06-06","Female","","Yellow",22,,"",,,"",1,19.8,16.18
+383,160,"2004-08-24",27,"Archie","Mitchell","(608) 825-3740","1326 Cedar Avenue","Sun Prairie","WI","53590",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",1,40.5,16.18
+384,161,"2004-06-13",96,"Inez","Maynard","(913) 344-4761","3832 College Street","Manhattan","KS","66502",169,"Lorene","Dog","Coon Hound","2004-09-11","Female","","Yellow",132.48,,"",,,"",1,119.24,7.15
+385,162,"2004-03-10",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",171,"Glen","Dog","Chihuahua","2004-04-18","Male","AKC","Yellow",232.26,,"",,,"",1,209.04,30.31
+386,162,"2004-03-10",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",172,"Jackie","Dog","Boston Terrier","2004-08-13","Female","AKC","Gray",242.28,,"",,,"",1,218.06,30.31
+387,162,"2004-03-10",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",2,3.6,30.31
+388,162,"2004-03-10",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",12,0.36,30.31
+389,162,"2004-03-10",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",2,13.5,30.31
+390,162,"2004-03-10",22,"Inga","Adkins","(706) 977-4337","8831 Cardinal Lane","Dalton","GA","30720",,"","","","","","","",,36,"Leash",172,22,"Dog",2,19.8,30.31
+391,163,"2004-09-30",63,"Earl","Grimes","(301) 485-6261","6485 Pepper Street","Frederick","MD","21701",170,"Sarah","Dog","Poodle","2004-03-15","Female","AKC","White",250.81,,"",,,"",1,225.73,13.54
+392,164,"2004-05-30",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",180,"","Fish","Angel","2004-04-01","Female","","Yellow",27,,"",,,"",1,24.3,14.47
+393,164,"2004-05-30",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",184,"","Fish","Tetra","2004-05-21","Male","","Black/Blue",25,,"",,,"",1,22.5,14.47
+394,164,"2004-05-30",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,24,"Aquarium-100 gal",11,150,"Fish",1,135,14.47
+395,164,"2004-05-30",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,26,"Aquarium Decoration",48,6,"Fish",1,5.4,14.47
+396,164,"2004-05-30",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,14.47
+397,164,"2004-05-30",47,"Bernice","Carver","(804) 020-5842","8170 Roberts Road","Chesapeake","VA","23320",,"","","","","","","",,28,"Aquarium Light",65,25,"Fish",1,22.5,14.47
+398,165,"2004-03-16",33,"Colleen","Latham","(314) 510-5228","2864 Dolhous Drive","O’Fallon","MO","63366",178,"Leisha","Dog","Scottish Terrier","2004-05-26","Female","AKC","Gray",164.63,,"",,,"",1,148.17,31.23
+399,165,"2004-03-16",33,"Colleen","Latham","(314) 510-5228","2864 Dolhous Drive","O’Fallon","MO","63366",185,"Ricardo","Dog","Airedale","2004-06-21","Male","AKC","Gray",164.14,,"",,,"",1,147.73,31.23
+400,165,"2004-03-16",33,"Colleen","Latham","(314) 510-5228","2864 Dolhous Drive","O’Fallon","MO","63366",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",1,40.5,31.23
+401,165,"2004-03-16",33,"Colleen","Latham","(314) 510-5228","2864 Dolhous Drive","O’Fallon","MO","63366",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,99,31.23
+402,165,"2004-03-16",33,"Colleen","Latham","(314) 510-5228","2864 Dolhous Drive","O’Fallon","MO","63366",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",1,27,31.23
+403,165,"2004-03-16",33,"Colleen","Latham","(314) 510-5228","2864 Dolhous Drive","O’Fallon","MO","63366",,"","","","","","","",,31,"Flea Collar-Dog-Large",1018,8.5,"Dog",1,7.65,31.23
+404,165,"2004-03-16",33,"Colleen","Latham","(314) 510-5228","2864 Dolhous Drive","O’Fallon","MO","63366",,"","","","","","","",,32,"Collar-Dog-Small",47,12,"Dog",1,10.8,31.23
+405,165,"2004-03-16",33,"Colleen","Latham","(314) 510-5228","2864 Dolhous Drive","O’Fallon","MO","63366",,"","","","","","","",,36,"Leash",172,22,"Dog",2,19.8,31.23
+406,166,"2004-02-16",92,"Tim","Zeller","(608) 481-3369","9682 Ridge Top Road","Fitchburg","WI","53701",175,"Donald","Cat","Canadian Hairless","2004-07-09","Male","CFA","Brown",193.14,,"",,,"",1,173.83,10.43
+407,167,"2004-03-10",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",187,"Martha","Dog","Poodle","2004-05-15","Female","","White",133.65,,"",,,"",1,120.29,20.59
+408,167,"2004-03-10",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",190,"Wendell","Dog","Minature Pinschers","2004-03-30","Male","AKC","Red",163.6,,"",,,"",1,147.24,20.59
+409,167,"2004-03-10",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",,"","","","","","","",,10,"Dog Food-Dry-25 pound",100,16,"Dog",2,14.4,20.59
+410,167,"2004-03-10",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",,"","","","","","","",,33,"Collar-Dog-Medium",92,15,"Dog",2,13.5,20.59
+411,167,"2004-03-10",60,"Lou Ann","Baez","(502) 029-3909","2528 Hot Springs Avenue","Campbellsville","KY","42718",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,20.59
+412,168,"2004-01-23",3,"Dwight","Logan","(617) 843-6488","1760 Clearview Street","Boston","MA","02109",177,"Jennifer","Dog","Siberian Huskie","2004-04-23","Female","AKC","White",205.75,,"",,,"",1,185.18,17.05
+413,168,"2004-01-23",3,"Dwight","Logan","(617) 843-6488","1760 Clearview Street","Boston","MA","02109",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,99,17.05
+414,169,"2004-02-25",84,"David","Sims","(617) 467-3438","6623 Glenview Drive","Boston","MA","02116",179,"Cassy","Dog","Keeshond","2004-01-05","Female","AKC","Red",139.61,,"",,,"",1,125.65,7.54
+415,170,"2004-02-27",21,"Sarah","Mills","(615) 646-9874","8904 Horseshoe Road","Smyrna","TN","37167",186,"Francis","Dog","Chinese Shar Pei","2004-01-29","Female","AKC","Brown",240.4,,"",,,"",1,216.37,16.44
+416,170,"2004-02-27",21,"Sarah","Mills","(615) 646-9874","8904 Horseshoe Road","Smyrna","TN","37167",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",1,27,16.44
+417,170,"2004-02-27",21,"Sarah","Mills","(615) 646-9874","8904 Horseshoe Road","Smyrna","TN","37167",,"","","","","","","",,32,"Collar-Dog-Small",47,12,"Dog",1,10.8,16.44
+418,170,"2004-02-27",21,"Sarah","Mills","(615) 646-9874","8904 Horseshoe Road","Smyrna","TN","37167",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,16.44
+419,171,"2004-03-12",40,"Darrell","Oberhausen","(612) 089-0074","9556 Cumberland Hills Drive","Saint Paul","MN","55101",182,"Duane","Dog","Rottweiler","2004-05-28","Male","AKC","Red",218.49,,"",,,"",1,196.64,11.8
+420,172,"2004-03-09",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",188,"Angela","Dog","Chow Chow","2004-06-26","Female","AKC","Yellow",234.97,,"",,,"",1,211.48,15.98
+421,172,"2004-03-09",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",1,14.4,15.98
+422,172,"2004-03-09",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",1,2.7,15.98
+423,172,"2004-03-09",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",,"","","","","","","",,34,"Collar-Dog-Large",132,20,"Dog",1,18,15.98
+424,172,"2004-03-09",73,"Hershel","Keen","(603) 075-7437","8124 Industrial Drive","Nashua","NH","03060",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,15.98
+425,173,"2004-02-25",2,"Brent","Cummings","(808) 801-9830","9197 Hatchet Drive","Honolulu","HI","96815",192,"Sally","Cat","American Shorthair","2004-06-26","Female","CFA","Black",196.87,,"",,,"",1,177.19,10.63
+426,174,"2004-06-18",34,"Cathy","Hampton","(414) 168-2952","7295 Hazel Path","Milwaukee","WI","53203",201,"","Mammal","Hamster","2004-02-22","Male","","Brown",22,,"",,,"",1,19.8,5.78
+427,174,"2004-06-18",34,"Cathy","Hampton","(414) 168-2952","7295 Hazel Path","Milwaukee","WI","53203",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",1,9,5.78
+428,174,"2004-06-18",34,"Cathy","Hampton","(414) 168-2952","7295 Hazel Path","Milwaukee","WI","53203",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,5.78
+429,176,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,5,"Cat Bed-Small",36,25,"Cat",1,22.5,2.32
+430,176,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",10,0.9,2.32
+431,176,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,2.32
+432,177,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,39,"Litter Box",131,8,"Cat",1,7.2,2.05
+433,177,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",10,0.45,2.05
+434,177,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,21,"Bird Cage-Medium",5,25,"Bird",1,22.5,2.05
+435,178,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",2,27,5.94
+436,179,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,2,"Dog Kennel-Medium",12,65,"Dog",1,58.5,3.94
+437,179,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,15,"Dog Food-Can-Regular",452,0.4,"Dog",20,0.36,3.94
+438,180,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",15,0.9,2.54
+439,180,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,20,"Wood Shavings/Bedding",141,10,"Mammal",2,9,2.54
+440,180,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,29,"Flea Collar-Cat",240,6,"Cat",2,5.4,2.54
+441,181,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,24,"Aquarium-100 gal",11,150,"Fish",1,135,10.96
+442,181,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,25,"Fish Food",113,3,"Fish",6,2.7,10.96
+443,181,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,10.96
+444,182,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",20,0.45,1.73
+445,182,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,36,"Leash",172,22,"Dog",1,19.8,1.73
+446,183,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",1,3.6,2.32
+447,183,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,10,"Dog Food-Dry-25 pound",100,16,"Dog",2,14.4,2.32
+448,183,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,30,"Flea Collar-Dog-Medium",429,7,"Dog",1,6.3,2.32
+449,184,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",1,31.5,4.32
+450,184,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",30,0.9,4.32
+451,184,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,25,"Fish Food",113,3,"Fish",5,2.7,4.32
+452,185,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",1,76.5,11.07
+453,185,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",4,27,11.07
+454,186,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,23,"Aquarium-25 gal",28,75,"Fish",1,67.5,7.61
+455,186,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,26,"Aquarium Decoration",48,6,"Fish",1,5.4,7.61
+456,186,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,27,"Aquarium Filter + Pump",18,35,"Fish",1,31.5,7.61
+457,186,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,28,"Aquarium Light",65,25,"Fish",1,22.5,7.61
+458,187,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,5,"Cat Bed-Small",36,25,"Cat",5,22.5,13.23
+459,187,"2004-01-08",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",50,0.9,13.23
+460,188,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,58.5,14.31
+461,188,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",6,27,14.31
+462,188,"2004-02-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",25,0.72,14.31
+463,189,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",30,0.45,8.91
+464,189,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,22,"Bird Cage-Large",15,75,"Bird",2,67.5,8.91
+465,190,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,4,"Dog Kennel-Extra Large",6,110,"Dog",1,99,8.42
+466,190,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,16,"Dog Food-Can-Premium",1179,0.8,"Dog",20,0.72,8.42
+467,190,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",30,0.9,8.42
+468,191,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",1,31.5,4.27
+469,191,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,18,"Cat Food-Can-Premium",1874,1,"Cat",20,0.9,4.27
+470,191,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,19,"Cat Litter-10 pound",128,8,"Cat",3,7.2,4.27
+471,192,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",1,76.5,11.93
+472,192,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,7,"Dog Toy",134,4,"Dog",4,3.6,11.93
+473,192,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,11,"Dog Food-Dry-50 pound",373,30,"Dog",4,27,11.93
+474,193,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,6,"Cat Bed-Medium",35,35,"Cat",1,31.5,4.75
+475,193,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,8,"Cat Toy",182,3,"Cat",1,2.7,4.75
+476,194,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,14,"Cat Food-Dry-25 pound",300,18,"Cat",3,16.2,4.37
+477,194,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,29,"Flea Collar-Cat",240,6,"Cat",2,5.4,4.37
+478,194,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,40,"Litter Box-Covered",20,15,"Cat",1,13.5,4.37
+479,195,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",1,40.5,6.4
+480,195,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,2,"Dog Kennel-Medium",12,65,"Dog",1,58.5,6.4
+481,195,"2004-03-15",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,31,"Flea Collar-Dog-Large",1018,8.5,"Dog",1,7.65,6.4
+482,196,"2004-01-01",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,5,"Cat Bed-Small",36,25,"Cat",1,22.5,1.62
+483,196,"2004-01-01",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,17,"Cat Food-Can-Regular",7470,0.5,"Cat",10,0.45,1.62
+484,197,"2004-01-12",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,38,"Brush-Soft",50,8,"Cat",1,7.2,0.43
+485,198,"2000-05-05",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,1,"Dog Kennel-Small",11,45,"Dog",3,0,3
+486,198,"2000-05-05",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,2,"Dog Kennel-Medium",12,65,"Dog",1,0,3
+487,198,"2000-05-05",1,"Walkin","Walkin","","","Unknown","AK","",,"","","","","","","",,3,"Dog Kennel-Large",13,85,"Dog",4,0,3
