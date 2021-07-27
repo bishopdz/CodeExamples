@@ -1,0 +1,50 @@
+﻿@using DanielBishop_CSCI3110_Project2_ProjectManager.Models.ViewModels
+@model AssignToProjectVM
+
+@{
+    ViewData["Title"] = "AssignToProject";
+}
+
+<h1>Assign someone to Project: @Model.Project.Name .</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Middle Name
+            </th>
+            <th>
+                Last Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var person in Model.People)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => person.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => person.MiddleName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => person.LastName)
+                </td>
+                <td>
+                    <form asp-action="Assign">
+                        <input type="hidden" name="projectId" value="@Model.Project.Id" />
+                        <input type="hidden" name="personId" value="@person.Id" />
+                        <input type="submit" value="Assign" class="btn btn-primary" />
+
+                    </form>
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Details" asp-controller="Project" asp-route-id="@Model.Project.Id" class="btn btn-primary">Back to Project Details</a>

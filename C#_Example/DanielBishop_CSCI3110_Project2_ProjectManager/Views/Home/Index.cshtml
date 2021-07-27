@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var numOfPeople = ViewData["numberOfPeople"];
+    var numOfProjects = ViewData["numberOfProjects"];
+    var numOfRoles = ViewData["numberOfRoles"];
+}
+
+    <div class="text-center">
+        <h4>Number of Projects: @numOfProjects</h4>
+        <a asp-controller="Project" asp-action="Index" class="btn btn-primary">Manage Projects</a>
+        <br />
+        <br />
+        <h4>Number of People: @numOfPeople</h4>
+        <a asp-controller="Person" asp-action="Index" class="btn btn-primary">Manage People</a>
+        <br />
+        <br />
+        <h4>Number of Project Roles: @numOfRoles</h4>
+        <a asp-controller="Role" asp-action="Index" class="btn btn-primary">Manage Project Roles</a>
+        <br />
+        <br />
+        <br />
+        <h4>Reports:</h4>
+        <br />
+        <a asp-controller="Reports" asp-action="ProjectReport" class="btn btn-primary">View Project Report</a>
+        <br />
+        <br />
+        <a asp-controller="Reports" asp-action="PeopleReport" class="btn btn-primary">View People Report</a>
+    </div>

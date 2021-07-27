@@ -1,0 +1,144 @@
+﻿@model DanielBishop_CSCI3110_Project2_ProjectManager.Models.ViewModels.DetailsVM
+@using DanielBishop_CSCI3110_Project2_ProjectManager.Models.Entities
+@{
+    ViewData["Title"] = "Details";
+
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Project</h4>
+    <hr />
+</div>
+<div class="form-group">
+    <label class="control-label">Project Name</label>
+    <input value="@Model.Project.Name" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label class="control-label">Number of people assigned to this project: @Model.NumberOfPeople</label>
+</div>
+<div class="form-group">
+    <label class="control-label">Start Date</label>
+    <input value="@Model.Project.StartDate" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label class="control-label">Due Date</label>
+    <input value="@Model.Project.DueDate" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label class="control-label">Number of days until project is due: @Model.DaysUntilDue</label>
+</div>
+
+<br />
+
+@*Add a list of people's names thats assigned to the project, see instructions*@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Middle Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Number of roles
+            </th>
+            <th>
+                Roles
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{int i = 0; }
+        @*@foreach (var person in Model.People)
+            {*@
+        @foreach (KeyValuePair<Person, List<Role>> personWithRoles in Model.PeopleRoles)
+        {
+            <tr>
+                <td>
+                    @personWithRoles.Key.FirstName
+                </td>
+                <td>
+                    @personWithRoles.Key.MiddleName
+                </td>
+                <td>
+                    @personWithRoles.Key.LastName
+                </td>
+                <td>
+                    @personWithRoles.Value.Count()
+                </td>
+                <td>
+
+
+
+                    @foreach (var roles in personWithRoles.Value)
+                    {
+
+                        @roles.Name;
+
+                        <br />
+
+                    }
+
+
+
+
+                    @*@foreach (List<ProjectRole> projectRole in Model.ProjectRoles.OrderBy(x => x.Role.Name).ToList())
+                        {
+                            foreach (var role in projectRole)
+                            {
+                                //This will only happen if the person is already assigned to the project.
+                                if (projectRole.ProjectId == Model.Project.Id && projectRole.PersonId == personWithRoles.Key.Id)
+                                {
+                                @projectRole.Role.Name;
+
+                                <br />
+                                }
+                            }
+                        }*@
+                </td>
+                <td>
+                    <form asp-action="AssignRole" asp-controller="ProjectRole">
+                        <input type="hidden" name="projectId" value="@Model.Project.Id" />
+                        <input type="hidden" name="personId" value="@personWithRoles.Key.Id" />
+                        <input type="submit" value="Assign Role" class="btn btn-primary" />
+
+                    </form>
+                </td>
+                <td>
+                    <form asp-action="DeleteRole" asp-controller="ProjectRole">
+                        <input type="hidden" name="projectId" value="@Model.Project.Id" />
+                        <input type="hidden" name="personId" value="@personWithRoles.Key.Id" />
+                        <input type="submit" value="Remove Role" class="btn btn-primary" />
+
+                    </form>
+                </td>
+                <td>
+                    <form asp-action="DeletePersonFromProject" asp-controller="ProjectRole">
+                        <input type="hidden" name="projectId" value="@Model.Project.Id" />
+                        <input type="hidden" name="personId" value="@personWithRoles.Key.Id" />
+                        <input type="submit" value="Remove Person" class="btn btn-primary" />
+
+                    </form>
+                </td>
+            </tr>
+            { i++; }
+        }
+    </tbody>
+</table>
+<div>
+    <a class="btn btn-primary" asp-controller="ProjectRole" asp-action="AssignToProject" asp-route-projectId=@Model.Project.Id>Assign a Person</a>
+
+</div>
+<br />
+<div>
+    <a asp-action="Edit" asp-route-id=@Model.Project.Id class="btn btn-primary">Edit</a>  |
+    <a asp-action="Index" class="btn btn-primary">Back to Project List</a>
+</div>

@@ -1,0 +1,51 @@
+﻿@model DanielBishop_CSCI3110_Project2_ProjectManager.Models.ViewModels.DeletePersonFromProjectVM
+@using DanielBishop_CSCI3110_Project2_ProjectManager.Models.Entities
+@{
+    ViewData["Title"] = "DeletePersonFromProject";
+}
+
+
+<h1>DeletePersonFromProject</h1>
+
+<h3>Are you sure you want to delete @Model.Person.FirstName from @Model.Project.Name?</h3>
+<div>
+    <h4>ProjectRole</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Project Name:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Project.Name
+        </dd>
+
+        <dt class="col-sm-2">
+            Employee Name:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Person.FirstName @Model.Person.MiddleName @Model.Person.LastName
+        </dd>
+
+        <dt class="col-sm-2">
+            Roles:
+        </dt>
+        <dd class="col-sm-10">
+            @foreach (var projectRole in Model.ProjectRoles)
+            {
+
+                @projectRole.Role.Name <br />
+
+            }
+        </dd>
+
+    </dl>
+    <form asp-action="DeletePersonFromProjectConfirmed" asp-controller="ProjectRole">
+        <input type="hidden" name="projectId" value="@Model.Project.Id" />
+        <input type="hidden" name="personId" value="@Model.Person.Id" />
+        <br />
+        <input type="submit" value="Yes, Remove" class="btn btn-danger" />
+
+    </form>
+</div>
+
+<a asp-action="Details" asp-controller="Project" asp-route-id="@Model.Project.Id" class="btn btn-primary">Back to Project Details</a>
